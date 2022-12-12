@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import GetFormData from './Components/GetFormData';
 import ClassComponent from './Components/ClassComponent';
@@ -9,8 +10,12 @@ import ShowAndHIdeElements from './Components/ShowAndHIdeElements';
 import ConditionalRenderingIfElse from './Components/ConditionalRenderingIfElse';
 import ConditionalRenderingElseIF from './Components/ConditionalRenderingElseIF';
 import FunctionasProps from './Components/FunctionasProps';
+import ConstructorLifeCycleMethod from './Components/ConstructorLifeCycleMethod';
+import RenderLifeCycleMethod from './Components/RenderLifeCycleMethod';
 
 function App() {
+
+  const [email,setEmail] = React.useState("jawad@123"); 
 
   function call(){
     alert("Hello i am  App Component");
@@ -27,7 +32,10 @@ function App() {
         {/* < GetFormData /> */}
         {/* <ConditionalRenderingIfElse /> */}
         {/* <ConditionalRenderingElseIF /> */}
-        <FunctionasProps data={call}/>
+        {/* <FunctionasProps data={call}/> */}
+        {/* <ConstructorLifeCycleMethod /> */}
+        <RenderLifeCycleMethod email={email}/>
+        <button onClick={()=>setEmail("hamza@123")}>updtae email</button>
     </div>
   );
 }
