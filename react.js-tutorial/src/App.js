@@ -12,6 +12,10 @@ import ConditionalRenderingElseIF from './Components/ConditionalRenderingElseIF'
 import FunctionasProps from './Components/FunctionasProps';
 import ConstructorLifeCycleMethod from './Components/ConstructorLifeCycleMethod';
 import RenderLifeCycleMethod from './Components/RenderLifeCycleMethod';
+import ComponentDidMountLifeCycleMethod from './Components/ComponentDidMountLifeCycleMethod';
+import ComponentDidUpdateLifeCycleMethod from './Components/ComponentDidUpdateLifeCycleMethod';
+import ShouldComponentUpdateLIfeCycleMethod from './Components/ShouldComponentUpdateLIfeCycleMethod';
+import ComponentWillUnmountLifeCycleMethod from './Components/ComponentWillUnmountLifeCycleMethod';
 
 function App() {
 
@@ -34,8 +38,12 @@ function App() {
         {/* <ConditionalRenderingElseIF /> */}
         {/* <FunctionasProps data={call}/> */}
         {/* <ConstructorLifeCycleMethod /> */}
-        <RenderLifeCycleMethod email={email}/>
-        <button onClick={()=>setEmail("hamza@123")}>updtae email</button>
+        {/* <RenderLifeCycleMethod email={email}/>
+        <button onClick={()=>setEmail("hamza@123")}>updtae email</button> */}
+        {/* <ComponentDidMountLifeCycleMethod /> */}
+        {/* <ComponentDidUpdateLifeCycleMethod /> */}
+        {/* < ShouldComponentUpdateLIfeCycleMethod /> */}
+        < ComponentWillUnmountLifeCycleMethod />
     </div>
   );
 }
