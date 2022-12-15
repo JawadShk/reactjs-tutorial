@@ -16,6 +16,11 @@ import ComponentDidMountLifeCycleMethod from './Components/ComponentDidMountLife
 import ComponentDidUpdateLifeCycleMethod from './Components/ComponentDidUpdateLifeCycleMethod';
 import ShouldComponentUpdateLIfeCycleMethod from './Components/ShouldComponentUpdateLIfeCycleMethod';
 import ComponentWillUnmountLifeCycleMethod from './Components/ComponentWillUnmountLifeCycleMethod';
+import UsestateHook from './Components/UsestateHook';
+import UseEffectHook from './Components/UseEffectHook';
+import UseEffectWIthState from './Components/UseEffectWIthState';
+import UseEffectWithProps1 from './Components/UseEffectWithProps1';
+import StyleType from './Components/StyleType';
 
 function App() {
 
@@ -43,7 +48,12 @@ function App() {
         {/* <ComponentDidMountLifeCycleMethod /> */}
         {/* <ComponentDidUpdateLifeCycleMethod /> */}
         {/* < ShouldComponentUpdateLIfeCycleMethod /> */}
-        < ComponentWillUnmountLifeCycleMethod />
+        {/* < ComponentWillUnmountLifeCycleMethod /> */}
+        {/* < UsestateHook /> */}
+        {/* <UseEffectHook /> */}
+        {/* < UseEffectWIthState /> */}
+        {/* < UseEffectWithProps1 /> */}
+        < StyleType />
     </div>
   );
 }
