@@ -21,6 +21,10 @@ import UseEffectHook from './Components/UseEffectHook';
 import UseEffectWIthState from './Components/UseEffectWIthState';
 import UseEffectWithProps1 from './Components/UseEffectWithProps1';
 import StyleType from './Components/StyleType';
+import ReactBootstrap from './Components/ReactBootstrap';
+import HandleArrayWithList from './Components/HandleArrayWithList';
+import HandleArrayWithObject from './Components/HandleArrayWithObject';
+import NestedListWithNestedArray from './Components/NestedListWithNestedArray';
 
 function App() {
 
@@ -31,7 +35,7 @@ function App() {
   }
 
   return (
-    <div className='App'>
+    <div className='App m-5'>
         {/* < ClassComponent /> */}
         {/* <FunctionComponent/>  */}
         {/* <PropsViaFuncCom name={"Jawad"} age={20} email={"shaikhjawad020@gmail.com"} other={{mobile:"8850838058", address:"mumbai"}} /> */}
@@ -53,7 +57,11 @@ function App() {
         {/* <UseEffectHook /> */}
         {/* < UseEffectWIthState /> */}
         {/* < UseEffectWithProps1 /> */}
-        < StyleType />
+        {/* < StyleType /> */}
+        {/* < ReactBootstrap /> */}
+        {/* < HandleArrayWithList /> */}
+        {/* < HandleArrayWithObject /> */}
+        < NestedListWithNestedArray />
     </div>
   );
 }
